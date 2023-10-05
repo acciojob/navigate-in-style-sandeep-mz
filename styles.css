@@ -1,23 +1,24 @@
 /* Apply styles to the navigation bar */
-.navbar {
-    background-color: #D3D3D3;
+.container {
+    background-color: rgb(211, 211, 211);
     padding: 10px;
 }
 
 /* Style the list items */
-.navbar ul {
+.container ul {
     list-style: none; /* Remove bullets */
+	display:flex;
     margin: 0;
     padding: 0;
 }
 
-.navbar li {
+.container li {
     display: inline; /* Display items horizontally */
     margin-right: 1rem; /* Add spacing between items */
 }
 
 /* Style the links */
-.navbar a {
+.container a {
     text-decoration: none; /* Remove underlines */
     color: black; /* Set link color */
 }
