@@ -1,1 +1,23 @@
-/*  your css code here. If applicable */
+/* Apply styles to the navigation bar */
+.navbar {
+    background-color: #D3D3D3;
+    padding: 10px;
+}
+
+/* Style the list items */
+.navbar ul {
+    list-style: none; /* Remove bullets */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline; /* Display items horizontally */
+    margin-right: 1rem; /* Add spacing between items */
+}
+
+/* Style the links */
+.navbar a {
+    text-decoration: none; /* Remove underlines */
+    color: black; /* Set link color */
+}
